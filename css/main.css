@@ -744,6 +744,12 @@ ul, ol, li {
   margin-bottom: 88px;
 }
 
+.right-side__content:hover {
+  -webkit-transition: all 0.4 ease;
+  transition: all 0.4 ease;
+  background-color: #FDD6BA;
+}
+
 .right-side__item:nth-child(even) {
   margin-left: 23px;
   margin-right: 23px;

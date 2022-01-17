@@ -92,15 +92,20 @@ margin-bottom: 56px;
 
 }
 
+.right-side__content:hover{
+    transition: all 0.4 ease;
+    background-color:#FDD6BA;
+}
+
+
 .right-side__item:nth-child(even){
     margin-left:23px;
     margin-right:23px;
-
 }
+
 
 input:checked ~ .right-side__content{
     background-color:#0E8784;
-
 }
 
 input:checked ~ .right-side__content .right-side__text{
