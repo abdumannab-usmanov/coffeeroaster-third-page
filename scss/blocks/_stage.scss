@@ -33,12 +33,12 @@
     padding-bottom: 0;
 }
 
-.stage__number{
+ .stage__number{
     margin-right: 28px;
     transition: all 0.3s ease;
 }
 
-.stage__number:hover{
+.stage__item:hover .stage__number{
     color: #0E8784;
     transition: all 0.3s ease;
 }
@@ -48,7 +48,7 @@
     transition: all 0.3s ease;
 }
 
-.stage__info:hover{
+.stage__item:hover .stage__info{
     color: $dark-grey-blue;
     transition: all 0.3s ease;
 }
@@ -184,6 +184,7 @@ input:checked ~ .right-side__content .right-side__info{
     color:#FFFFFF ;
     opacity: 50.37%;
     margin-bottom: 8px;
+    text-transform: uppercase;
 }
 
 .right-side__suggest{
